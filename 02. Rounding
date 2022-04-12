@@ -1,0 +1,8 @@
+function solve(input, roundNumber) {
+    if (roundNumber <= 15) {
+        input = input.toFixed(roundNumber)
+    }else{
+        input = input.toFixed(15)
+    }
+    console.log(parseFloat(input))
+}
