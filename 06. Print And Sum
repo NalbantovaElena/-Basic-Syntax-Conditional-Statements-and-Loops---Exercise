@@ -1,0 +1,10 @@
+function solve(firstNumber, secondNumber) {
+    let arr = []
+    let result = 0;
+    for (let i = firstNumber; i <= secondNumber; i++) {
+        arr.push(i)
+        result += i
+    }
+    console.log(arr.join(' '))
+    console.log(`Sum: ${result}`)
+}
